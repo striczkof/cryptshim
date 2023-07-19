@@ -9,6 +9,14 @@ This uses the https://github.com/rust-osdev/uefi-rs crates.
 
 This hobby project is under casual development, and is not ready for use.
 
+## How to build:
+Assumed environment: Linux/macOS, Rust stable
+```shell
+# uefi-rs supports x86_64-unknown-uefi, i686-unknown-uefi, and aarch64-unknown-uefi
+# This example uses x86_64-unknown-uefi, duh
+cargo build --target x86_64-unknown-uefi
+```
+
 ## Goals:
 ### 0.1
 - [ ] Actually run (duh)
