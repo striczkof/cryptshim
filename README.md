@@ -19,10 +19,10 @@ cargo build --target x86_64-unknown-uefi
 
 ## Goals:
 ### 0.1
-- [ ] Actually run (duh)
+- [x] Actually run (duh)
 - [ ] Prompt for password (unused for now)
 - [ ] Read db, dbx, and MOK from EFI variables
-- [ ] Load any EFI binary, preferably Linux EFISTUB
+- [x] Load any EFI binary, preferably Linux EFISTUB
 ### 0.2
 - [ ] Implement a very simple compile-time config
 ### 0.3
